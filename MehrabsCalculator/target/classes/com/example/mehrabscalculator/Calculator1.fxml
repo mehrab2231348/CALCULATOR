@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+        <?import javafx.scene.control.Button?>
+        <?import javafx.scene.control.Label?>
+        <?import javafx.scene.control.TextField?>
+        <?import javafx.scene.layout.AnchorPane?>
+        <?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffe6e6;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mehrabscalculator.Calculator1Controller">
+<children>
+    <Label layoutX="208.0" layoutY="46.0" text="MY CALCULATOR" textFill="#6122b3">
+        <font>
+            <Font name="Bodoni MT Bold Italic" size="18.0" />
+        </font>
+    </Label>
+    <TextField fx:id="numberOneTextField" layoutX="59.0" layoutY="122.0" />
+    <TextField fx:id="numberTwoTextField" layoutX="327.0" layoutY="122.0" />
+    <Button layoutX="248.0" layoutY="188.0" mnemonicParsing="false" onAction="#addOnClick" style="-fx-background-color: #6666ff;" text="ADD" />
+    <Label fx:id="answerLabel" layoutX="53.0" layoutY="300.0" prefHeight="76.0" prefWidth="485.0" style="-fx-background-color: #ffcccc;" text="ANSWER:" />
+    <Button layoutX="176.0" layoutY="213.0" mnemonicParsing="false" onAction="#substractOnclick" style="-fx-background-color: #ff66ff;" text="substract" />
+    <Button layoutX="296.0" layoutY="213.0" mnemonicParsing="false" onAction="#multiplyOnClick" style="-fx-background-color: #ff4d4d;" text="multiply" />
+    <Button layoutX="240.0" layoutY="238.0" mnemonicParsing="false" onAction="#divisionOnClick" style="-fx-background-color: #ff8c66;" text="division" />
+    <Button layoutX="438.0" layoutY="213.0" mnemonicParsing="false" onAction="#clearOnClick" style="-fx-background-color: blue;" text="Clear.." />
+</children>
+</AnchorPane>
